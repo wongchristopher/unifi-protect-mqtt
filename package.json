@@ -1,0 +1,14 @@
+{
+    "name": "unifi_protect_mqtt",
+    "version": "1.0.0",
+    "description": "Send events from unifi-protect to mqtt",
+    "author": "Christopher Wong",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+        "unifi-protect": "^3.0.4",
+        "mqtt": "4.3.7"
+    }
+  }
